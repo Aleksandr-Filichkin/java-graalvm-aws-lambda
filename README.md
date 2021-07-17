@@ -29,5 +29,5 @@ sh build.sh
 Cold start
 ![img_1.png](cold-startpresult.png)
 
-Warmed uo
+Warmed up (256Mb Lambda, 10000 iterations for the 1 lambda)
 ![img.png](warm-result.png)
