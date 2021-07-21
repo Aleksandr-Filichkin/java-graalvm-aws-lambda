@@ -1,0 +1,59 @@
+GET https://api-gateway-url/Prod/v1/book/4a0e25f2-6a45-471c-8035-627c96d2ce63
+
+###
+POST   https://api-gateway-url/Prod/v1/book
+accept: application/json
+content-type: application/json
+
+{
+"name": "Sotnikov",
+"author": "Vasil Baykoav"
+}
+
+###
+POST   https://api-gateway-url/Prod/v2/book
+accept: application/json
+content-type: application/json
+
+{
+  "name": "Sotnikov",
+  "author": "Vasil Baykoav"
+}
+###
+POST   https://api-gateway-url/Prod/v3/book
+accept: application/json
+content-type: application/json
+
+{
+  "name": "Sotnikov",
+  "author": "Vasil Baykoav"
+}
+###
+POST   https://api-gateway-url/Prod/go/book
+accept: application/json
+content-type: application/json
+
+{
+  "name": "Sotnikov",
+  "author": "Vasil Baykoav"
+}
+
+###
+POST   https://api-gateway-url/Prod/py/book
+accept: application/json
+content-type: application/json
+
+{
+  "name": "Sotnikov",
+  "author": "Vasil Baykoav"
+}
+
+###
+POST   https://api-gateway-url/Prod/node/book
+accept: application/json
+content-type: application/json
+
+{
+  "name": "Sotnikov",
+  "author": "Vasil Baykoav"
+}
