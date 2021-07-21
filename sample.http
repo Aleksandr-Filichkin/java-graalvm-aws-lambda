@@ -1,0 +1,10 @@
+
+###
+POST   https://{API-GATEWAY-ID}/Prod/v1/book
+accept: application/json
+content-type: application/json
+
+{
+  "name": "Sotnikov",
+  "author": "Vasil Baykoav"
+}

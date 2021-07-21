@@ -57,7 +57,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.filichkin.blog.lambda.v3.handler.test.Main</mainClass>
+                  <mainClass>com.filichkin.blog.lambda.v3.handler.test.MainForAgent</mainClass>
                 </transformer>
               </transformers>
             </configuration>

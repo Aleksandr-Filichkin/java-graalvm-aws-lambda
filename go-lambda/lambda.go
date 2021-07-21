@@ -13,34 +13,32 @@ import (
 	"encoding/json"
 	"fmt"
 )
+
 var (
 	svc dynamodbiface.DynamoDBAPI
 )
+
 type Book struct {
 	Id     string `json:"id,omitempty"`
-	Author   string `json:"author"`
-	Name string `json:"name"`
+	Author string `json:"author"`
+	Name   string `json:"name"`
 }
 
 func Handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 
-
-
 	// New uuid for item id
 	itemUuid := uuid.New().String()
-
 
 	// Unmarshal to Item to access object properties
 	itemString := request.Body
 	itemStruct := Book{}
 	json.Unmarshal([]byte(itemString), &itemStruct)
 
-
 	// Create new item of type item
 	item := Book{
-		Id:      itemUuid,
-		Author:   itemStruct.Author,
-		Name: itemStruct.Name,
+		Id:     itemUuid,
+		Author: itemStruct.Author,
+		Name:   itemStruct.Name,
 	}
 
 	// Marshal to dynamobb item
@@ -51,7 +49,6 @@ func Handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 	}
 
 	tableName := "books"
-
 
 	input := &dynamodb.PutItemInput{
 		Item:      av,
