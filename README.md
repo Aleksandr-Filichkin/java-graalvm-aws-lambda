@@ -1,4 +1,4 @@
-#AWS Lambda with Custom Runtime and GraalVM
+# AWS Lambda with Custom Runtime and GraalVM
 
 **Here you can see 6 implementations of the microservice:**
 ![img.png](flow.png)
@@ -10,7 +10,7 @@
 - Node-lambda - is a NodeJs implementation
 - Python-lambda - is a Python implementation
 
-#Build and deploy
+# Build and deploy
 
 **Requirements:**
 
@@ -25,7 +25,7 @@ _to deploy the service just run:_
 ```sh
 sh build.sh
 ```
-#Performance result:
+# Performance result:
 Cold start
 ![img_1.png](cold-startpresult.png)
 

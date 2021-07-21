@@ -7,7 +7,7 @@ content-type: application/json
 
 {
 "name": "Sotnikov",
-"author": "Vasil Baykoav"
+"author": "Vasil Bykov"
 }
 
 ###
@@ -17,7 +17,7 @@ content-type: application/json
 
 {
   "name": "Sotnikov",
-  "author": "Vasil Baykoav"
+  "author": "Vasil Bykov"
 }
 ###
 POST   https://api-gateway-url/Prod/v3/book
@@ -26,7 +26,7 @@ content-type: application/json
 
 {
   "name": "Sotnikov",
-  "author": "Vasil Baykoav"
+  "author": "Vasil Bykov"
 }
 ###
 POST   https://api-gateway-url/Prod/go/book
@@ -35,7 +35,7 @@ content-type: application/json
 
 {
   "name": "Sotnikov",
-  "author": "Vasil Baykoav"
+  "author": "Vasil Bykov"
 }
 
 ###
@@ -45,7 +45,7 @@ content-type: application/json
 
 {
   "name": "Sotnikov",
-  "author": "Vasil Baykoav"
+  "author": "Vasil Bykov"
 }
 
 ###
@@ -55,5 +55,5 @@ content-type: application/json
 
 {
   "name": "Sotnikov",
-  "author": "Vasil Baykoav"
+  "author": "Vasil Bykov"
 }
