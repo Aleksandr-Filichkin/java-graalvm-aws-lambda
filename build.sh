@@ -19,8 +19,9 @@ GOARCH=amd64 GOOS=linux go build -o ./../lambda-go
 cd ./../node-lambda/
 npm install
 
-# Deploy lambdas
-cd ../
+#for windows
 alias sam='sam.cmd'
 
+# Deploy lambdas
+cd ../
 sam deploy --guided

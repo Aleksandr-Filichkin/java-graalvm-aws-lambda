@@ -13,6 +13,11 @@
   <artifactId>lambda-v2</artifactId>
 
   <dependencies>
+
+    <dependency>
+      <groupId>com.filichkin.blog</groupId>
+      <artifactId>common</artifactId>
+    </dependency>
     <dependency>
       <groupId>software.amazon.awssdk</groupId>
       <artifactId>dynamodb-enhanced</artifactId>
@@ -33,10 +38,6 @@
       <artifactId>url-connection-client</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>com.filichkin.blog</groupId>
-      <artifactId>common</artifactId>
-    </dependency>
   </dependencies>
 
 
