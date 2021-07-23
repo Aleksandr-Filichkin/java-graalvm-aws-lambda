@@ -1,7 +1,7 @@
-GET https://api-gateway-url/Prod/v1/book/4a0e25f2-6a45-471c-8035-627c96d2ce63
+GET https://3olqg31gjc.execute-api.us-east-1.amazonaws.com/Prod/v1/book/4a0e25f2-6a45-471c-8035-627c96d2ce63
 
 ###
-POST   https://api-gateway-url/Prod/v1/book
+POST   https://3olqg31gjc.execute-api.us-east-1.amazonaws.com/Prod/v1/book
 accept: application/json
 content-type: application/json
 
@@ -11,7 +11,7 @@ content-type: application/json
 }
 
 ###
-POST   https://api-gateway-url/Prod/v2/book
+POST   https://3olqg31gjc.execute-api.us-east-1.amazonaws.com/Prod/v2/book
 accept: application/json
 content-type: application/json
 
@@ -20,7 +20,7 @@ content-type: application/json
   "author": "Vasil Bykov"
 }
 ###
-POST   https://api-gateway-url/Prod/v3/book
+POST   https://3olqg31gjc.execute-api.us-east-1.amazonaws.com/Prod/v3/book
 accept: application/json
 content-type: application/json
 
@@ -29,17 +29,7 @@ content-type: application/json
   "author": "Vasil Bykov"
 }
 ###
-POST   https://api-gateway-url/Prod/go/book
-accept: application/json
-content-type: application/json
-
-{
-  "name": "Sotnikov",
-  "author": "Vasil Bykov"
-}
-
-###
-POST   https://api-gateway-url/Prod/py/book
+POST   https://3olqg31gjc.execute-api.us-east-1.amazonaws.com/Prod/go/book
 accept: application/json
 content-type: application/json
 
@@ -49,7 +39,17 @@ content-type: application/json
 }
 
 ###
-POST   https://api-gateway-url/Prod/node/book
+POST   https://3olqg31gjc.execute-api.us-east-1.amazonaws.com/Prod/py/book
+accept: application/json
+content-type: application/json
+
+{
+  "name": "Sotnikov",
+  "author": "Vasil Bykov"
+}
+
+###
+POST   https://3olqg31gjc.execute-api.us-east-1.amazonaws.com/Prod/node/book
 accept: application/json
 content-type: application/json
 
