@@ -155,7 +155,7 @@ Resources:
       CodeUri: node-lambda/
       Handler: lambda.create
       Runtime: nodejs12.x
-      MemorySize: 128
+      MemorySize: 256
       Tracing: Active
       Policies:
         - DynamoDBCrudPolicy:

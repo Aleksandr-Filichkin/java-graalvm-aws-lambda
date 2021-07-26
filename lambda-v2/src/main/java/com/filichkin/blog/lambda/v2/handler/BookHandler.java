@@ -11,7 +11,6 @@ import software.amazon.awssdk.auth.credentials.EnvironmentVariableCredentialsPro
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;
 import software.amazon.awssdk.enhanced.dynamodb.TableSchema;
-import software.amazon.awssdk.http.urlconnection.UrlConnectionHttpClient;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
 
@@ -31,7 +30,7 @@ public class BookHandler implements RequestHandler<APIGatewayProxyRequestEvent, 
                 .dynamoDbClient(DynamoDbClient.builder()
                         .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
                         .region(Region.US_EAST_1)
-                        .httpClientBuilder(UrlConnectionHttpClient.builder())
+//                        .httpClientBuilder(UrlConnectionHttpClient.builder())
                         .build())
 
                 .build();

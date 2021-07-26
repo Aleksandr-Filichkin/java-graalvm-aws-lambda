@@ -18,6 +18,7 @@
       <groupId>com.filichkin.blog</groupId>
       <artifactId>common</artifactId>
     </dependency>
+
     <dependency>
       <groupId>software.amazon.awssdk</groupId>
       <artifactId>dynamodb-enhanced</artifactId>
@@ -26,16 +27,7 @@
           <groupId>software.amazon.awssdk</groupId>
           <artifactId>netty-nio-client</artifactId>
         </exclusion>
-        <exclusion>
-          <groupId>software.amazon.awssdk</groupId>
-          <artifactId>apache-client</artifactId>
-        </exclusion>
       </exclusions>
-    </dependency>
-
-    <dependency>
-      <groupId>software.amazon.awssdk</groupId>
-      <artifactId>url-connection-client</artifactId>
     </dependency>
 
   </dependencies>
